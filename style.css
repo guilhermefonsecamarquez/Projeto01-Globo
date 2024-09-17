@@ -1,0 +1,171 @@
+body{
+  font-family: "Encode Sans", sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.separador{
+  width: 150px;
+  height: auto;
+}
+
+.container-pagina{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #F5F6F7;
+}
+
+.menu img {
+  cursor: pointer;
+}
+
+.logo {
+  height: 30px;
+}
+
+.container-sub-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.sub-tema:nth-child(1) {
+  color: #C3170C;
+}
+.sub-tema:nth-child(2) {
+  color: #1E4B9B;
+}
+.sub-tema:nth-child(3) {
+  color: #006766;
+}
+.sub-tema:nth-child(4) {
+  color: #07AA47;
+}
+.sub-tema:nth-child(5) {
+  color: #E3662B;
+}
+.sub-tema:nth-child(6) {
+  color: #FB0735;
+}
+.sub-tema:nth-child(7) {
+  color: #FF75BB;
+}
+.sub-tema:nth-child(8) {
+  color: #EC7D00;
+}
+.sub-tema:nth-child(9) {
+  color: #323333;
+}
+.sub-tema:nth-child(10) {
+  color: #A81D83;
+}
+
+.sub-tema:hover{
+  cursor: pointer;
+  filter: brightness(80%)
+}
+
+.container-conteudo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.esquerda{
+  width: 100%;
+}
+
+.esquerda h1{
+  cursor: pointer;
+}
+
+.esquerda p{
+  cursor: pointer;
+}
+
+.conteudo-esquerda {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+
+.conteudo-esquerda div {
+  width: 30%;
+}
+
+.conteudo-esquerda div p{
+  font-size: 15px;
+}
+
+.conteudo-img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+.conteudo-p {
+  color: #C4160C;
+  font-size: 13px;
+}
+
+.direita {
+  width: 80%;
+  margin: 10px;
+  display: flex;
+}
+
+.conteudo-direita {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin: 10px;
+  border-left: 1px;
+  border-style: solid;
+  border-color: #F5F6F7;
+}
+
+.conteudo-esquerda div {
+  width: 30%;
+}
+
+.conteudo-direita div p{
+  font-size: 15px;
+}
+
+h1{
+  font-size: 45px;
+  color: #C4160C;
+  line-height: 60px;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+}
+
+p {
+  font-size: 18px;
+  color: #303134;
+  margin: 5px 0px;
+}
+
+a {
+  text-decoration: none;
+}
